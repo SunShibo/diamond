@@ -15,9 +15,9 @@ public class Constants {
     
     public static final String BASE_DIR = "config-data";
 
-    public static final String DEFAULT_DOMAINNAME = "a.b.c";
+    public static final String DEFAULT_DOMAINNAME = "diamond.sun.com";
 
-    public static final String DAILY_DOMAINNAME = "d.e.f";
+    public static final String DAILY_DOMAINNAME = "diamond.sun.com";
 
     public static final int DEFAULT_PORT = 8080;
 
@@ -53,9 +53,9 @@ public class Constants {
 
     public static final int RECV_WAIT_TIMEOUT = ONCE_TIMEOUT * 5;// 毫秒
 
-    public static final String HTTP_URI_FILE = "/url";
+    public static final String HTTP_URI_FILE = "/diamond-server/config.co";
 
-    public static final String CONFIG_HTTP_URI_FILE = "/url";
+    public static final String CONFIG_HTTP_URI_FILE = "/diamond-server/config.co";
 
     public static final String HTTP_URI_LOGIN = "/url";
 
@@ -65,9 +65,9 @@ public class Constants {
 
     public static final String WORD_SEPARATOR = Character.toString((char) 2);
 
-    public static final String DEFAULT_USERNAME = "xxx";
+    public static final String DEFAULT_USERNAME = "abc";
 
-    public static final String DEFAULT_PASSWORD = "xxx";
+    public static final String DEFAULT_PASSWORD = "123";
     
     /*
      * 批量操作时, 单条数据的状态码
