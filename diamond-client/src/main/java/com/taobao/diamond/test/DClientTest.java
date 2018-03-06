@@ -11,7 +11,7 @@ public class DClientTest {
     public static void main(String[] args) {
         // group和dataId为String类型，二者结合为diamond-server端保存数据的惟一key
         String group = "DEFAULT_GROUP";
-        String dataId = "sunshibo";
+        String dataId = "testkey";
 
         // ManagerListener 是客户端注册的数据监听器，能在运行中接受变化的配置数据，
         // 然后回调receiveConfigInfo()方法，执行客户端处理数据的逻辑。
@@ -28,7 +28,7 @@ public class DClientTest {
                 });
         // 一般的获取信息方法
         String configInfo = manager.getAvailableConfigureInfomation(1000);
-        System.out.println(configInfo);
+        System.out.println("configInfo:" + configInfo);
     }
 }
 

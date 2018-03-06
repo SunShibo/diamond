@@ -55,7 +55,8 @@ public class Constants {
 
     public static final String HTTP_URI_FILE = "/diamond-server/config.co";
 
-    public static final String CONFIG_HTTP_URI_FILE = "/diamond-server/config.co";
+    /** 获取服务器列表的地址 */
+    public static final String CONFIG_HTTP_URI_FILE = "/diamond-server/diamond";
 
     public static final String HTTP_URI_LOGIN = "/url";
 
